@@ -1,0 +1,47 @@
+{
+    "size": 3,
+    "shots": [
+        {
+          "coordinates": {
+              "x": 0,
+              "y": 0
+          },
+          "state": "Capsized",
+          "shipId": 1
+        },
+        {
+          "coordinates": {
+            "x": 1,
+            "y": 0
+          },
+          "state": "Capsized",
+          "shipId": 1
+        },
+        {
+          "coordinates": {
+            "x": 2,
+            "y": 0
+          },
+          "state": "Missed"
+        },
+        {
+          "coordinates": {
+            "x": 1,
+            "y": 2
+          },
+          "state": "Seaworthy"
+        }
+    ],
+    "ships": [
+        {
+            "id": 1,
+            "length": 2,
+            "alive": false
+        },
+        {
+            "id": 2,
+            "length": 3,
+            "alive": true
+        }
+    ]
+}
